@@ -32,17 +32,17 @@
 /*---------------
  header banner style
  --------------------- */
-header .banner-info{
+header .header-info{
     margin-top: 115px;
     text-align: center;
 }
-.banner-title{
+.header-title{
     font-weight: 700;
     font-size: 64px;
     color: #131313;
     margin-bottom: 20px;
 }
-.banner-description{
+.header-description{
     color: #727272;
     font-size: 16px;
 }
@@ -55,4 +55,17 @@ header .banner-info{
     background-color: #FF900E;
     border-radius: 8px;
 
+}
+.image{
+
+    border-radius: 8px ;
+    margin-top: 50px;
+    margin-left: 240px;
+}
+/* main style */
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 300px;
+    margin-top: 85px;
 }
