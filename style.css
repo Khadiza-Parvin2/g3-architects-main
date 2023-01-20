@@ -49,7 +49,8 @@ header .header-info{
 .explore{
     color: #FFFFFF;
     margin: 25px 870px 0 870px;
-    width: 100px;
+    font-size: 20px;
+    width: 150px;
     height: 25px;
     padding: 20px 20px;
     background-color: #FF900E;
@@ -64,8 +65,85 @@ header .header-info{
 }
 /* main style */
 .container{
+    display: flex;
+    
+
+}
+.team-container{
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 300px;
-    margin-top: 85px;
+    margin: 85px 76px 0px 300px;
+}
+.feature{
+    text-align: left;
+    margin: 290px 300px 0 73px;
+
+}
+.title{
+    color: #727272;
+    font-weight: 500px;
+    font-size: 45px;
+}
+.text-primary{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.text-feature{
+    width: 468px;
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+.text-description{
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+.explore-1{
+    color: #FFFFFF;
+    margin-top: 32px;
+    font-size: 20px;
+    width: 150px;
+    height: 25px;
+    padding: 20px 20px;
+    background-color: #FF900E;
+    border-radius: 8px;
+}
+/* features style */
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
+}
+.section-container{
+    margin:169px 54px 168px 240px;
+
+}
+.dash{
+    width: 5px;
+    color: #FF900E;
+}
+.text title{
+
+}
+.features{
+    width: 586px;
+    margin:10px 10px 0;
+    background-color: #FFFFFF;
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+   
+}
+.features-container{
+    margin-top: 30px;
+}
+.img{
+    
+    width: 800px;
+    height: 1059px;
+    background-color:#FFFFFF;
+    padding:100px;
 }
