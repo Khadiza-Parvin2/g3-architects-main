@@ -65,15 +65,22 @@ header .header-info{
 }
 /* main style */
 .container{
+    width: 1920px;
+    height: 900px;
     display: flex;
     
-
 }
 .team-container{
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 85px 76px 0px 300px;
+}
+.team-12{
+    margin-top: 85px;
+}
+.team-34{
+    margin-top: 85px;
 }
 .feature{
     text-align: left;
@@ -118,8 +125,14 @@ header .header-info{
     grid-template-columns: repeat(2, .5fr);
 }
 .section-container{
+    width: 1920px;
+    height: 900px;
+    display: flex;
     margin:169px 54px 168px 240px;
 
+}
+.text-primary{
+    margin-top: 150px;
 }
 .dash{
     width: 5px;
@@ -146,4 +159,98 @@ header .header-info{
     height: 1059px;
     background-color:#FFFFFF;
     padding:100px;
+}
+.year{
+    text-align: center;
+
+}
+.explore-3{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+.experience{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    padding: 46px 42px;
+    background-color: #FF900E;
+    border-radius: 8px;
+}
+.facts{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 500px;
+    margin-left: 240px;
+}
+.notifications{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+.icons{
+    width: 1920px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.icon{
+    
+    margin: 120px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.ribon{
+    margin: 70px 98px 10px 98px;
+}
+.article{
+    text-align: center;
+    margin: 10px 37px 60px 30px;
+    font-weight: 600;
+    font-size: 45px;
+}
+.info{
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
+.end-section{
+    
+    width: 1920px;
+    height: 400px;
+    text-align: center;
+}
+.last-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 180px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    margin-left: 400px;
+}
+/* footer style */
+.footer{
+    width: 1920px;
+    height: 400px;
+}
+.landing{
+    text-align: center;
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    background-color:#FFF4E7;
+    border-radius: 8px;
+    padding: 39px 410px;
+    margin:130px 240px;
 }
